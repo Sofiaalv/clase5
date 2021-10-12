@@ -1,8 +1,8 @@
-let estudiante = prompt("Ingrese su nombre"); {
+let estudiante = prompt("Ingrese su nombre").toLowerCase(); {
 
-    if (estudiante == "Alan") {
+    if (estudiante == "alan") {
         console.log("Alumno ingresado");
-        
+
         class alumno{
             constructor(nombre, edad, curso){
         
@@ -33,6 +33,7 @@ let estudiante = prompt("Ingrese su nombre"); {
         alumno1.getEdad();
         console.log("Cursando: "+ alumno1.getCurso());
     } else {
+
         console.log("Alumno denegado");
         }
  }
